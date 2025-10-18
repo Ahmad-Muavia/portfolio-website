@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | Ahmad Muavia</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <header>
     <nav>
-      <h1 class="logo">Ahmad<span>Muavia</span></h1>
-      <ul class="nav-links">
+      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="content">
-    <h2>Contact Me</h2>
-    <p>You can reach out to me via email or connect on GitHub.</p>
-    <ul>
-      <li>Email: <a href="mailto:m.ahmad.mm@gmail.com">ahmadmuavia@gmail.com</a></li>
-      <li>GitHub: <a href="https://github.com/Ahmad-Muavia">github.com/ahmad-muavia</a></li>
-    </ul>
+  <section class="contact">
+    <h2 class="about-heading">Contact Me</h2>
+
+    <div class="contact-info">
+      <p><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:m.ahmad.mm2466@gmail.com">m.ahmad.mm2466@gmail.com</a></p>
+      <p><i class="fa-brands fa-github"></i> GitHub: <a href="https://github.com/Ahmad-Muavia" target="_blank">Ahmad-Muavia</a></p>
+      <p><i class="fa-brands fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/feed/" target="_blank">Ahmad Muavia</a></p>
+      <p><i class="fa-solid fa-phone"></i> Phone: +92 300 1234567</p>
+    </div>
+
+    <div class="contact-form">
+      <h3>Send me a message</h3>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message"></textarea>
+
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
   </section>
 
-  <footer>
-    <p>© 2025 Ahmad Muavia</p>
-  </footer>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

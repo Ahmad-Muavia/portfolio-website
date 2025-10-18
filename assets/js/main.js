@@ -1,2 +1,7 @@
-// You can add animations or dark mode toggles later
-console.log("Welcome to Ahmad Muavia's Portfolio!");
+// Smooth scrolling for internal links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href'))?.scrollIntoView({ behavior: 'smooth' });
+  });
+});
