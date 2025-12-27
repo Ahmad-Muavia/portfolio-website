@@ -3,7 +3,7 @@
 A modern and minimal portfolio website to showcase my skills, projects, and contact information.
 
 ## 🚀 Live Demo
-👉 [https://ahmad-muavia.github.io/](https://ahmad-muavia.github.io/)
+👉 https://ahmad-muavia.github.io/portfolio-website/
 
 ## 🧰 Built With
 - HTML5
